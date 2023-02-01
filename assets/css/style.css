@@ -20,7 +20,7 @@
 }
  
 .conteudo {
-	background: #ff8080;
+	/*background: #ff8080;*/
 	/*passando o nome da area referente ao grid-template-areas*/
 	grid-area: conteudo;	
 }

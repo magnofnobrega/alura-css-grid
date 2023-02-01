@@ -1,0 +1,10 @@
+.destaques {
+	/*informando que deve se comportar como grid*/
+	display: grid;
+	/*definindo as colunas*/
+	grid-template-columns: 25% 25% 25% 25%;
+	/*definindo as linhas*/
+	grid-auto-rows: 33.33% 33.33% 33.33%;
+	height: calc(100vh - 50px)
+
+}
