@@ -10,7 +10,7 @@
     /*é preciso definir o tamanho das linhas e colunas ao usar o grid*/
     grid-template-columns: auto;
     /*os valores são referentes ao cabecalho / conteudo / rodape*/
-	grid-template-rows: 50px 100vh auto;    
+	grid-template-rows: 50px auto auto;    
 }
 
 .cabecalho {
@@ -25,11 +25,16 @@
 .conteudo {
 	/*background: #ff8080;*/
 	/*passando o nome da area referente ao grid-template-areas*/
-	grid-area: conteudo;	
+	grid-area: conteudo;
+    padding: 0 2rem;   	
 }
 
 .rodape {
-	background: #0099ff;
+	background: #fdfdfd;
 	/*passando o nome da area referente ao grid-template-areas*/
 	grid-area: rodape;
+    color: #333333;
+    font-size: .8rem;
+    padding: 1rem;
+    text-align: center;
 }
