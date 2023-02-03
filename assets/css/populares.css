@@ -10,9 +10,10 @@
 		"card-imagem"
 		"card-corpo";
 	grid-template-columns: 100%;
-	width: calc(20% - 1rem);
+		/*adicionado no responsivo
 	margin-right: 1rem;
-	grid-template-rows: 173px auto; 	
+	grid-template-rows: 173px auto; 
+	width: calc(20% - 1rem);*/
 }
 
 .populares__card___imagem{

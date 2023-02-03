@@ -37,6 +37,18 @@
 	/*.destaques__categorias {
 		grid-column: 1 / 5;
 	}*/	
+
+	.populares__conteudo {
+		flex-direction: column;
+
+	}
+
+	.populares__card {
+		grid-template-rows: 150px auto;
+		margin-bottom: 3rem;
+		margin-right: 0;
+		width: 100%;
+	}
 		
 }
 
@@ -79,24 +91,39 @@
 		grid-column: 1 / 3;
 	}	
 	
+	.populares__conteudo {
+		flex-direction: row;
+
+	}
+
+	.populares__card {
+		grid-template-rows: 173px auto;
+		margin-bottom: 3rem;
+		margin-right: 1rem;
+		width: calc(50% - 1rem);
+	}
 }
 
 /*Utilizando para Desktops mais antigos*/
 @media screen and (min-width: 992px) {
-	.cabecalho {
+	/*.cabecalho {
 		background: blue;
+	}*/
+
+	.populares__card {
+		width: calc(33.33% - 1rem);
 	}
 
-	.destaques__secundario:nth-child(2) {
-		display: none;
-		grid-column: none;
-		grid-row: none;
-	}	
 }
 
 /*Utilizando para tv e desktop mais novos*/
 @media screen and (min-width: 1200px) {
-	.cabecalho {
+	/*.cabecalho {
 		background: red;
-	}	
+	}*/	
+
+	.populares__card {
+		margin-bottom: 0;
+		width: calc(20% - 1rem);
+	}
 }
